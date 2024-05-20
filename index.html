@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Didact+Gothic&family=Noto+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p>Columns:</p>
+        <input type="text" class="inp" id="col">
+        <p>Rows:</p>
+        <input type="text" class="inp" id="row">
+        <p></p>
+        <select name="" id="operator">
+            <option value="Add">Add</option>
+            <option value="Subtract">Subtract</option>
+            <option value="Multiply">Multiply</option>
+            <option value="Divide">Divide</option>
+        </select>
+        <button onclick="get()">Make me a Table</button>
+    </header>
+    <div id="showResult"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
